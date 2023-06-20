@@ -9,8 +9,25 @@ public static boolean nullOrEmpty(String value) {
 package c1004;
 
 public class C1004 {
-	public static boolean nullOrEmpty(String value) {
-		
-	    return value == null || value.isEmpty();
+	public static void main(String[] age) {
+
+		String value1 = null;
+
+		String value2 = "";
+
+		String value3 = "hello";
+
+		System.out.println(nullOrEmpty(value1));
+
+		System.out.println(nullOrEmpty(value2));
+
+		System.out.println(nullOrEmpty(value3));
+
 	}
+
+	public static boolean nullOrEmpty(String value) {
+
+		return value == null || value.isEmpty();
+	}
+
 }

@@ -1,3 +1,7 @@
+/**
+ * 質問６︓整数16の16進数をSystem.out.println()してください。
+ */
+
 package c1006;
 
 public class C1006 {
@@ -6,8 +10,8 @@ public class C1006 {
 		
 	int number = 16;
 	
-	String formattedHex = String.format("%x", number);
+	String format = String.format("%x", number);
 	
-	System.out.println(formattedHex);
+	System.out.println(format);
 	}
 }
